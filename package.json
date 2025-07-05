@@ -1,0 +1,13 @@
+{
+  "name": "lawb-chess-api",
+  "version": "1.0.0",
+  "description": "Stockfish Chess API for Cloudflare Workers",
+  "main": "stockfish-worker.js",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
